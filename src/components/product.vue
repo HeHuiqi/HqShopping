@@ -38,7 +38,7 @@
 <style scoped>
 
     .product {
-        width: 25%;
+        width: 20%;
         float: left;
     }
     .product-main {

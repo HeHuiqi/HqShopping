@@ -23,7 +23,7 @@
             <span>排序：</span>
             <span class="list-control-order-item" :class="{on:order===''}"
                   @click="handleOrderDefault">默认</span>
-            <span class="list-control-order-item" :class="{on:order===''}"
+            <span class="list-control-order-item" :class="{on:order==='sales'}"
                   @click="handleOrderSales">销量
                 <template v-if="order === 'sales'">↓</template>
              </span>
